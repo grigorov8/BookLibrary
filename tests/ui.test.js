@@ -26,7 +26,7 @@ test('Verify "Login" button is visible', async ({ page }) => {
 test('Verify "All Books" link is visible after user login', async ({ page }) => {
   await page.goto('http://localhost:3000/login');
 
-  await page.fill('input[name="email"]', 'peter@abv.bg');
+  await page.fill('input[name="email"]', 'peterr@abv.bg');
   await page.fill('input[name="password"]', '123456');
   await page.click('input[type="submit"]');
 
